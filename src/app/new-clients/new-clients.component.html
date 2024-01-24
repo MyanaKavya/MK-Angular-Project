@@ -1,0 +1,39 @@
+<div class="main-container">
+  <div class="container">
+    <form #clientForm="ngForm" (ngSubmit)="addClient(clientForm)">
+      <div class="form-group">
+        <label>Name</label>
+        <input
+          class="form-control"
+          type="text"
+          name="name"
+          [(ngModel)]="client.name"
+        />
+      </div>
+      <div class="form-group">
+        <label>Occupation</label>
+        <input
+          class="form-control"
+          type="text"
+          name="occupation"
+          [(ngModel)]="client.occupation"
+        />
+      </div>
+      <div class="form-group">
+          <label>Project Type</label>
+          <input
+            class="form-control"
+            type="text"
+            name="projectType"
+            [(ngModel)]="client.projectType"
+          />
+        </div>
+        <div class="formgroup">
+          <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
+  </div>
+</div>
+
+
+

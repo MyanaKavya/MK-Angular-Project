@@ -1,0 +1,22 @@
+button {
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.form-group{
+    margin: 25px;
+    padding-top: 10px;
+}
+
+label {
+    color: rgb(16, 16, 64);
+}
+.container {
+    /* background-color: #dfe0e2; */
+    border-style: groove;
+    border-radius: 10px;
+}
+.main-container{
+    position: relative;
+    top: 20px;
+}
