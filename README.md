@@ -1,9 +1,15 @@
 # Steps to Execute the project
-1. Run the json server at assets/json-server --watch clients.json
+1. Run the json server at src\assets>json-server --watch clients.json
 2. Json server will be running at localhost:3000 port
-3. Run the angular server at src/ng serve
+3. Run the angular server at >ng serve
 4. Angular application runs at localhost:4200
-
+   
+# Working of the application
+1. Once the application is built, local server is up and it runs at portal 4200
+2. First page 'client-setup' gets loaded
+3. In Menu, new clients section gives you access to add clients into the table.
+4. Once u save the detials of client, move to the clients setup page and check whether the client is added.
+5. In billings section, All the projects of the client gets displayed.
 
 
 # AngularProject
